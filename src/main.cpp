@@ -1,9 +1,13 @@
 #include <stdio.h>
 
+#include "BinaryTree.h"
+
 //------------------------------------------------------
 
 int main ()
 {
+    CreateNode (50);
+
     return 0;
 }
 
