@@ -13,6 +13,13 @@ int main ()
 
     CreateNode (&tree, 50);
     CreateNode (&tree, 60);
+    CreateNode (&tree, 20);
+    CreateNode (&tree, 70);
+    CreateNode (&tree, 80);
+    CreateNode (&tree, 75);
+    CreateNode (&tree, 52);
+
+    PrintTree (tree.root);
 
     fclose(dump_file);
 

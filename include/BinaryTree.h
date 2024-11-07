@@ -26,6 +26,7 @@ enum tree_error_t
 tree_error_t TreeInit (tree_t* tree);
 tree_error_t CreateNode (tree_t* tree, tree_elem_t data);
 tree_node_t* FindPtrToInsert (tree_t* tree, tree_elem_t data);
+void PrintTree (tree_node_t* node);
 void TreeDump ();
 
 #endif // BINARY_TREE

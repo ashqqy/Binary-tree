@@ -81,6 +81,20 @@ tree_node_t* FindPtrToInsert (tree_t* tree, tree_elem_t data)
 
 //------------------------------------------------------
 
+void PrintTree (tree_node_t* node)
+{
+    if (node == NULL)
+        return;
+
+    printf ("(");
+    if (node->left  != NULL) PrintTree (node->left);
+    printf ("%d", node->data);
+    if (node->right != NULL) PrintTree (node->right);
+    printf (")");
+}
+
+//------------------------------------------------------
+
 void TreeDump ()
 {
     return;
