@@ -19,7 +19,9 @@ int main ()
     CreateNode (&tree, 75);
     CreateNode (&tree, 52);
 
-    PrintTree (tree.root);
+    PrintTree (tree.root_node);
+
+    TreeDump (dump_file, &tree);
 
     fclose(dump_file);
 

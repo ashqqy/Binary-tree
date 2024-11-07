@@ -1,0 +1,1 @@
+This is a test version of the binary tree. See the real sigma tree in the Akinator repository

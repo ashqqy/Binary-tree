@@ -1,0 +1,19 @@
+digraph G
+{
+node[shape="record", style="rounded, filled"];
+
+p0x0000024e0c161440[label = "{ <p>ptr = 0x0000024e0c161440 | <d>data = 50| { <l>left|<r>right } }"];
+p0x0000024e0c161480[label = "{ <p>ptr = 0x0000024e0c161480| <d>data = 20| { <l>left|<r>right } }"];
+p0x0000024e0c161460[label = "{ <p>ptr = 0x0000024e0c161460| <d>data = 60| { <l>left|<r>right } }"];
+p0x0000024e0c161500[label = "{ <p>ptr = 0x0000024e0c161500| <d>data = 52| { <l>left|<r>right } }"];
+p0x0000024e0c1614a0[label = "{ <p>ptr = 0x0000024e0c1614a0| <d>data = 70| { <l>left|<r>right } }"];
+p0x0000024e0c1614c0[label = "{ <p>ptr = 0x0000024e0c1614c0| <d>data = 80| { <l>left|<r>right } }"];
+p0x0000024e0c1614e0[label = "{ <p>ptr = 0x0000024e0c1614e0| <d>data = 75| { <l>left|<r>right } }"];
+
+p0x0000024e0c161440:<l> -> p0x0000024e0c161480
+p0x0000024e0c161440:<r> -> p0x0000024e0c161460
+p0x0000024e0c161460:<l> -> p0x0000024e0c161500
+p0x0000024e0c161460:<r> -> p0x0000024e0c1614a0
+p0x0000024e0c1614a0:<r> -> p0x0000024e0c1614c0
+p0x0000024e0c1614c0:<l> -> p0x0000024e0c1614e0
+}
